@@ -1,0 +1,78 @@
+:root {
+    /* Naive UI 默认主题色 */
+    --vp-c-brand: #18a058;
+    --vp-c-brand-light: #36ad6a;
+    --vp-c-brand-lighter: #63c588;
+    --vp-c-brand-dark: #0c7a43;
+    --vp-c-brand-darker: #086436;
+
+    /* 首页样式变量 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #18a058 30%, #41d1ff);
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #18a058 50%, #47caff 50%);
+    --vp-home-hero-image-filter: blur(72px);
+
+    /* 按钮悬停效果 */
+    --vp-button-brand-border: var(--vp-c-brand-light);
+    --vp-button-brand-text: var(--vp-c-white);
+    --vp-button-brand-bg: var(--vp-c-brand);
+    --vp-button-brand-hover-border: var(--vp-c-brand-light);
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+    --vp-button-brand-active-border: var(--vp-c-brand-dark);
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-c-brand-dark);
+}
+
+/* 深色模式 */
+.dark {
+    --vp-c-brand: #36ad6a;
+    --vp-c-brand-light: #63c588;
+    --vp-c-brand-lighter: #8fddb6;
+    --vp-c-brand-dark: #18a058;
+    --vp-c-brand-darker: #0c7a43;
+}
+
+/* 自定义首页样式 */
+.vp-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    gap: 20px;
+}
+
+.vp-feature-item {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--vp-c-bg-soft);
+    transition: transform 0.3s;
+}
+
+.vp-feature-item:hover {
+    transform: translateY(-5px);
+}
+
+.customer-cases {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 2rem 0;
+}
+
+.case {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--vp-c-bg-soft);
+    text-align: center;
+}
+
+.case img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
