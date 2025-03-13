@@ -54,7 +54,7 @@ export default ({
             }
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/your-repo/molly_camera' }
+            { icon: 'github', link: 'https://github.com/MollyCam/' }
         ],
         footer: {
             message: 'Released under the MIT License.',
