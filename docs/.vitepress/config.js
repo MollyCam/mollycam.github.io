@@ -10,7 +10,8 @@ export default ({
         logo: '/images/logo.png',
         siteTitle: 'MollyCam',
         nav: [
-            { text: '快速指南', link: '/guide/getting-started' },
+            { text: '认识 MollyCam', link: '/guide/who-am-i' },
+            { text: '快速上手', link: '/guide/getting-started' },
             { text: '在线体验', link: '/guide/download/' },
             { text: '常见问题', link: '/guide/faq/' }
         ],
@@ -20,6 +21,7 @@ export default ({
                     text: '入门指南',
                     collapsed: false,
                     items: [
+                        { text: '认识 MollyCam', link: '/guide/who-am-i' },
                         { text: '快速上手', link: '/guide/getting-started' },
                         { text: '功能特性', link: '/guide/features' },
                         { text: '下载指南', link: '/guide/download' },
