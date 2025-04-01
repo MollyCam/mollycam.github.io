@@ -66,6 +66,8 @@ description: MollyCam 快速入门指南
 
 设备连接示意：
 
+![设备连接](/images/how-to-work.png)
+
 
 ## 二、软件安装
 

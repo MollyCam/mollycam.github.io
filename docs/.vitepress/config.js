@@ -12,7 +12,12 @@ export default ({
         nav: [
             { text: '认识 MollyCam', link: '/guide/who-am-i' },
             { text: '快速上手', link: '/guide/getting-started' },
-            { text: '常见问题', link: '/guide/faq/' }
+            { text: '常见问题', link: '/guide/faq/' },
+            {
+                text: 'DEMO演示',
+                link: 'https://demo.mollycam.com',
+                target: '_blank' // 新标签页打开
+            }
         ],
         sidebar: {
             '/guide/': [
@@ -22,9 +27,6 @@ export default ({
                     items: [
                         { text: '认识 MollyCam', link: '/guide/who-am-i' },
                         { text: '快速上手', link: '/guide/getting-started' },
-                        // { text: '功能特性', link: '/guide/features' },
-                        // { text: '下载指南', link: '/guide/download' },
-                        // { text: '部署指南', link: '/guide/deployment' },
                         { text: '常见问题', link: '/guide/faq' },
                     ]
                 }
@@ -58,7 +60,7 @@ export default ({
             { icon: 'github', link: 'https://github.com/MollyCam/' }
         ],
         footer: {
-            message: '',
+            message: '京ICP备2025117446号',
             copyright: 'Copyright © 2025 MollyCam. All rights reserved.'
         },
         lastUpdatedText: '最后更新',

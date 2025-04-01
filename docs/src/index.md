@@ -12,7 +12,7 @@ hero:
       text: 什么是 MollyCam
       link: /guide/who-am-i
     - theme: alt
-      text: DEMO体验
+      text: DEMO 演示
       link: https://demo.mollycam.com
 
 features:
@@ -29,3 +29,5 @@ features:
     title: 高效易用
     details: 支持跨平台使用，开箱即用，高效存储管理，无需复杂配置
 ---
+
+![设备连接](/images/mollycam-how-to-work.png)
