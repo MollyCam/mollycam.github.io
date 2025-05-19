@@ -4,20 +4,40 @@ description: 不同系统的下载
 ---
 
 
-# 下载指南
+# 客户端下载
 
-## 下载地址
-### Windows
+<DownloadSection />
 
-### MacOS
+下载遇到问题? [查看常见问题](/guide/faq) 或 [联系我们](/guide/contact)
 
-## 系统要求
-### Windows
+## 客户端安装
 
-### MacOS
+### macOS 客户端安装
 
-## 硬件要求 
+下载 MacOS 的 dmg 安装包，双击打开，通过拖拽 MollyCam 图标到 Application 目录即可完成安装。
 
-1080P以上的电脑免驱动摄像头
+![macOS客户端](/images/mac-dmg-install.png)
 
-推荐硬件：[海康电脑摄像头](https://e.tb.cn/h.TBPxtaSW3ul0K3b?tk=LbPGeL24RYH)
+### Windows 客户端安装
+
+稍后推出……
+
+## 在线DEMO
+
+您可以先尝试预览我们的在线 DEMO，体验核心的功能。
+
+<n-a href="https://demo.mollycam.com" target="_blank">
+    <n-button secondary type="primary">
+        <template #icon>
+        <n-icon>
+          <EyeOutline />
+        </n-icon>
+      </template>
+        DEMO 预览
+    </n-button>
+</n-a>
+
+## 修改日志
+
+[修改日志](changelog.md)
+

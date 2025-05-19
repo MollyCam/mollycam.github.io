@@ -6,6 +6,11 @@
     --vp-c-brand-dark: #0c7a43;
     --vp-c-brand-darker: #086436;
 
+    /* 添加 brand-1 变量 */
+    --vp-c-brand-1: #18a058;
+    --vp-c-brand-2: #36ad6a;
+    --vp-c-brand-3: #63c588;
+
     /* 首页样式变量 */
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #18a058 30%, #41d1ff);
@@ -34,6 +39,22 @@
     --vp-c-brand-lighter: #8fddb6;
     --vp-c-brand-dark: #18a058;
     --vp-c-brand-darker: #0c7a43;
+}
+
+
+/* 自定义文档链接样式 */
+.vp-doc a {
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.vp-doc a:hover {
+    color: var(--vp-c-brand-2);
+}
+
+.vp-doc a:active {
+    color: var(--vp-c-brand-3);
 }
 
 /* 自定义首页样式 */

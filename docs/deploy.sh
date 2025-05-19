@@ -12,7 +12,7 @@ echo "开始部署 VitePress 文档..."
 cd "$SOURCE_PATH"
 
 # 安装依赖
-echo "正在安装依赖..."
+echo "正在安装依赖..."   
 npm install
 
 # 构建文档

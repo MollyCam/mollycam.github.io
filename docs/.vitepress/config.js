@@ -12,7 +12,7 @@ export default ({
         nav: [
             { text: '认识 MollyCam', link: '/guide/who-am-i' },
             { text: '快速上手', link: '/guide/getting-started' },
-            { text: '常见问题', link: '/guide/faq/' },
+            { text: '下载安装', link: '/guide/download/' },
             {
                 text: 'DEMO演示',
                 link: 'https://demo.mollycam.com',
@@ -27,6 +27,7 @@ export default ({
                     items: [
                         { text: '认识 MollyCam', link: '/guide/who-am-i' },
                         { text: '快速上手', link: '/guide/getting-started' },
+                        { text: '下载安装', link: '/guide/download' },
                         { text: '常见问题', link: '/guide/faq' },
                     ]
                 }

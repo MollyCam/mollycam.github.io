@@ -7,16 +7,60 @@ description: MollyCam 快速入门指南
 
 ![快速上手](/images/getting-started-1.png)
 
-## 一、硬件准备
+## 一、DEMO 体验
+
+您可以先尝试预览我们的在线 DEMO，体验完整的功能。
+👉 [立即体验](https://demo.mollycam.com) 基础功能演示版本
+
+<n-a href="https://demo.mollycam.com" target="_blank">
+    <n-button secondary type="error">
+        <template #icon>
+        <n-icon>
+          <EyeOutline />
+        </n-icon>
+      </template>
+        DEMO 预览
+    </n-button>
+</n-a>
+
+### 首次体验必看！
+
+::: danger DEMO 体验注意事项
+
+首次打开浏览器 DEMO（以 Safari 为例），可能会出现”摄像头检测“提示，需要设置浏览器”网站设置“允许访问您的摄像头和麦克风。
+
+:::
+
+![首次打开 Safari 浏览器](/images/first-use-mollycam-1.png)
+
+点击浏览器的”网站设置“选项
+
+![首次打开 Safari 浏览器](/images/first-use-mollycam-2.png)
+
+设置允许访问摄像头和麦克风；
+
+![首次打开 Safari 浏览器](/images/first-use-mollycam-3.png)
+
+修改设置后，即可正常使用 DEMO。
+
+![首次打开 Safari 浏览器](/images/first-use-mollycam-4.png)
+
+Chrome 浏览器同理，需要在浏览器”网站设置“中允许摄像头和麦克风的权限。
+
+![首次打开 Chrome 浏览器](../public/images/first-use-mollycam-chrome.png)
+
+
+## 二、硬件准备
 
 ::: warning 必备硬件清单
 #### 🖥️ 电脑主机：运行 MollyCam 客户端
-> 此取证相机必须俩基恩电脑使用，没有电脑将无法运行；
-> 如果是笔记本电脑必要保证有2个以上的USB接口（摄像头+扫码枪）
-> 如果电脑 USB 2.0接口不足，可以使用官方推荐[USB HUB 扩展接口](https://example.com)；
+> 此取证相机必须连接电脑使用，没有电脑将无法运行；
+
 #### 📷 高清摄像头：记录视频影像
+> 此取证相机必须连接摄像头使用，没有摄像头将无法运行；
+
 #### 🔫 扫码枪：快速录入物流信息
-支持有线无线二维码扫码枪；
+> 支持有线无线二维码扫码枪；
 ::: 
 
 ### 1. 电脑配置要求
@@ -69,46 +113,43 @@ description: MollyCam 快速入门指南
 ![设备连接](/images/how-to-work.png)
 
 
-## 二、软件安装
+## 二、软件准备
 
-### 1. 下载客户端
-
-::: warning 在线 DEMO
-想要先体验 MollyCam 的核心功能？
-👉 [立即体验](https://demo.mollycam.com) 基础功能演示版本
-:::
+### 1. 客户端下载
 
 ::: danger 客户端
-我们正在进行最后的优化，客户端即将开放下载！
+
+单机个人版客户端下载：[下载安装](/guide/download) 
+
 :::
 
 
-### 2. 安装步骤
+### 2. 客户端安装
 
 1. 下载对应系统的安装包
 2. 运行安装程序
 3. 完成初始化配置
-> 注意：fluent-ffmpeg 依赖于系统中安装的 ffmpeg，所以还需要确保系统中已安装 ffmpeg
 
 ## 三、开始使用
 
 ### 1. 设备连接
+
 1. 连接摄像头
 2. 连接扫码枪
 3. 检查设备识别状态
 
 ### 2. 功能测试
+
 1. 测试摄像头画面
 2. 测试扫码功能
 3. 测试录制存储
 
 ### 3. 开始取证
-::: warning 注意事项
+
 - 确保光线充足
 - 保持画面稳定
 - 重要信息同框
 - 规范操作流程
-:::
 
 
 

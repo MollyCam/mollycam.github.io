@@ -339,3 +339,10 @@ NODE_ENV=production node scripts/migrate-db.js
 ## 11. 风险评估
 [列出可能的风险和应对方案]
 
+
+## 用户数据库
+MySQL 数据库
+需求：存储用户数据，包括用户名、密码、邮箱等信息。
+字段：id, username, password, email, created_at, updated_at
+索引：username, email
+约束：username, email 唯一 

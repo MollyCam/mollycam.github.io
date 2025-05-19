@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: DEMO 演示
       link: https://demo.mollycam.com
+    - theme: alt
+      text: 下载客户端
+      link: /guide/download
 
 features:
   - icon: 📹

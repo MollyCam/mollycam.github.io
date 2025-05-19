@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.0"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.13.0",
+    "naive-ui": "^2.41.0",
+    "vfonts": "^0.0.3"
   }
 }

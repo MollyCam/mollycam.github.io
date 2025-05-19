@@ -25,7 +25,7 @@ MollyCam 目前支持大部分USB免驱摄像头，官方硬件推荐筹备中�
 ## 问题反馈
 
 给我们反馈，我们会尽快处理。
-[反馈留言](https://tihopc2xuhx.feishu.cn/share/base/form/shrcn5AnqM909XahnklHpKMZOBg)
+[反馈留言](https://tihopc2xuhx.feishu.cn/share/base/form/shrcnKo7848tMU11NfPSn2Cg5Ue)
 
 你也可以通过电子邮件联系我们。
 molly.cam.2025@gmail.com
